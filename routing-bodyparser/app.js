@@ -26,11 +26,11 @@ server.get('/', (req, res, next) => { // Ansayfayı cekmek istedigimizden burada
             res.end();
 })
 
-
 server.post('/Urunler',(req,res,next)=>{ // /Urunlere veri gonderme istegi attigimizdan burada post kullandik.
     icerik = req.body; // Bunu yukarıda ekledigimiz modul olmadan kullanırsak undefined hatası alırız. Parse edilmeli.
     console.log(icerik)
     res.send('<h1>'+icerik.isim+'<h1>');
+    res.end();
     
 })
 
