@@ -1,7 +1,7 @@
 const express= require('express');
 const request = require('postman-request');
 const app = express();
-const key = 'AIzaSyCBPWsVkUF1AxRpuh1oCIZsAZ95reiGGG8'; // api key;
+const key = ''; // api key;
 const fs = require('fs');
 
 // Middlewares
